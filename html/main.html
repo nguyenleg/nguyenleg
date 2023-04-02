@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main </title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/input.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+
+    <script async data-cfasync="false" src="https://cdn.snigelweb.com/adengine/w3schools.com/loader.js" type="text/javascript"></script>
+<script src="/lib/common-deps.js?v=1.0.1"></script>
+<script src="/lib/user-session.js?v=1.0.28"></script>
+<script src="/lib/my-learning.js?v=1.0.19"></script>
+<style>
+  body {
+    background-image: url("https://img.freepik.com/free-vector/gold-luxury-background_52683-43998.jpg");
+  }
+  
+  </style>
+</head>
+<body>
+  <p style="color:whitesmoke;">Welcome To The HANOIANS CREW SHOP</p>
+   
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl" onclick="click()"id="click"onclick="Click()"
+          ondblclick="Click()">HOME PAGE</a>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <input type="text" placeholder="Search" class="input input-bordered" />
+          </div>
+          <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img src="https://xuyenvietmedia.com/wp-content/uploads/2022/05/y-nghia-mau-den-la-gi-1.jpg"flex-none />
+              </div>
+            </label>
+            <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+              <li>
+                <a class="justify-between">
+                  Profile
+                  <span class="badge">New</span>
+                </a>
+              </li>
+              <li><a onclick="click()">Cart</a></li>
+              <li><a onclick="click()">Notice
+                <span class="badge">+1</span></a></li>
+              <li><a>Settings</a></li>
+              <li><a onclick="login()">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+
+    <button
+    id="clickme" 
+    onclick="handleClick()"
+    ondblclick="doubleClick()"
+    >
+         <p style="color:whitesmoke;">LOGOUT</p>
+    </button>
+
+
+    <div class="header">
+      <div class="warpper">
+     <div> <button id="btn-primary">
+          Sản phẩm mới
+      </button>
+      <button id="btn-primary">
+          Phụ kiện
+      </button>
+      <button id="btn-primary">
+          Bộ sưu tập 
+      </button>
+      <button id="btn-primary">
+          Tin tức nổi bật 
+    </button>
+      
+    
+    </div>
+
+
+    <div  id="products" class="carousel carousel-center rounded-box flex flex-1 gap-x-4 px-12 pb-12"></div>
+
+
+
+    
+
+   
+     
+        
+    
+      
+
+
+        <script src="../js/main.js"></script>
+</body>
+</html>
+
+
